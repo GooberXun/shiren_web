@@ -23,4 +23,14 @@ public class IndexController {
         result.put("name", "小明");
         return result;
     }
+
+    @RequestMapping(value = "/test/home", produces = {"application/json;charset=UTF-8"})
+    @ResponseBody
+    public Map<String,Object> home() {
+        Map<String,Object> result = new HashMap<>();
+        result.put("age", 18);
+        result.put("sex", "男");
+        result.put("name", "小明");
+        return result;
+    }
 }
