@@ -1,0 +1,10 @@
+阿里云实人认证测试用例：
+访问地址：http://localhost:8080/controller/tosave
+所填内容：
+        身份证：130525199306213653
+        姓名：荀晓博
+        人像正面照：http://www.full-stacker.com/idcard/xiaobotouxiang.jpg
+        身份证正面照：http://www.full-stacker.com/idcard/xiaobo.jpg
+        身份证反面照：http://www.full-stacker.com/idcard/xiaobofanmian.jpg
+
+返回值：{"material":{"code":1,"message":"认证通过","data":{"identificationNumber":"130525199306213653","name":"荀晓博","facePic":"http://verify-img.cn-shanghai.img.aliyun-inc.com/0bd3966b130c4bb9ba3c98561e7b4403OSS.JPG?Expires=1523328340&OSSAccessKeyId=IJ95qE4nJQY6t6Lk&Signature=L97S8cvwwpkElHD96Am4thfwgE8%3D","idCardFrontPic":"http://verify-img.cn-shanghai.img.aliyun-inc.com/e5a4782300a74f52a3196ac8f8f2188fOSS.JPG_2.jpg?Expires=1523328340&OSSAccessKeyId=IJ95qE4nJQY6t6Lk&Signature=MrOZJLin9LS34YB/gDUbxBE0ArY%3D","idCardBackPic":"http://verify-img.cn-shanghai.img.aliyun-inc.com/c9ca862131124a5b8889306a2e7b7c29OSS.JPG?Expires=1523328340&OSSAccessKeyId=IJ95qE4nJQY6t6Lk&Signature=4QkeXjkMEecX2FPC0EH2hS8z0f0%3D"}}}
