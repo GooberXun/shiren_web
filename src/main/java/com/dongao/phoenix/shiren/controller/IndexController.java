@@ -31,6 +31,7 @@ public class IndexController {
         result.put("age", 18);
         result.put("sex", "男");
         result.put("name", "小明");
+        result.put("class","三班");
         return result;
     }
 
